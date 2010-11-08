@@ -1,0 +1,12 @@
+// Set ur virtualhost to make it accessing easy from git itself by clicking home page url
+<VirtualHost game:80>
+	
+	ServerName game
+	DocumentRoot /set ur folder path here /
+	<Directory "/set ur folder path here">
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Order allow,deny
+		allow from all
+	</Directory>
+</VirtualHost>
