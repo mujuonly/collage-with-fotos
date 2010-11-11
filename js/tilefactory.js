@@ -20,7 +20,8 @@ window.TileFactory = {
 			'chrome',
 			'ff',
 			'ie',			
-			'safari'
+			'safari',
+			'football'
 			/*'opera',
 			'netscape'*/
 		];
