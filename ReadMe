@@ -2,8 +2,8 @@
 <VirtualHost game:80>
 	
 	ServerName game
-	DocumentRoot /set ur folder path here /
-	<Directory "/set ur folder path here">
+	DocumentRoot /var/www/
+	<Directory "/var/www">
 		Options Indexes FollowSymLinks MultiViews
 		AllowOverride All
 		Order allow,deny
